@@ -1,7 +1,6 @@
 {
 	"name": "sv-toc",
-	"private": true,
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -12,6 +11,22 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
+	},
+	"author": {
+		"name": "OfficialCRUGG",
+		"email": "me@crg.sh"
+	},
+	"keywords": [
+		"svelte",
+		"svelte5",
+		"toc",
+		"toc-generator",
+		"table-of-contents",
+		"table-of-contents-generator"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"svelte": "^5.56.1"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -31,7 +46,6 @@
 		"remark-gfm": "^4.0.1",
 		"remark-parse": "^11.0.0",
 		"remark-rehype": "^11.1.2",
-		"svelte": "^5.56.1",
 		"svelte-check": "^4.6.0",
 		"twoslash-svelte": "^0.3.9",
 		"typescript": "^6.0.3",
