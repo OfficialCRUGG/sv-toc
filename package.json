@@ -1,6 +1,6 @@
 {
 	"name": "sv-toc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -35,8 +35,8 @@
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"main": "./dist/index.js",
-			"svelte": "./dist/index.js"
+			"svelte": "./dist/index.js",
+			"import": "./dist/index.js"
 		}
 	},
 	"dependencies": {
