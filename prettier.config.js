@@ -1,0 +1,12 @@
+/** @type {import("prettier").Config} */
+const config = {
+	useTabs: true,
+	tabWidth: 2,
+	singleQuote: false,
+	trailingComma: "all",
+	printWidth: 120,
+	plugins: ["prettier-plugin-svelte"],
+	overrides: [{ files: "*.svelte", options: { parser: "svelte" } }],
+};
+
+export default config;
